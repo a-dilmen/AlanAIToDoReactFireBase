@@ -1,0 +1,8 @@
+intent('Add $(item* (.*))',(p) => {
+    if (p.item.value){
+        p.play({ command: 'todoApp', data: p.item.value});
+        p.play(`${p.item.value} added`)    
+    } else {
+        p.play('Cannot add empty item')
+    }
+})

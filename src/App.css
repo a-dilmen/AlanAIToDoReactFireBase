@@ -1,0 +1,36 @@
+@import url();
+
+.todo-header {
+  text-align: center;
+}
+
+.todo-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.close-icon {
+  margin-left: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.todo-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  border: solid skyblue;
+  border-radius: 40%;
+  width: 30%;
+  align-items: center;
+}
+.todo-item {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.App {
+  background-color: rgb(0, 131, 131);
+}
